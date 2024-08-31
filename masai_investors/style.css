@@ -1,0 +1,47 @@
+.head{
+    font-size: 34px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#parent1{
+    display: flex;
+    justify-content: space-evenly;
+}
+#parent2{
+    height:auto;
+    width:95%;
+    display: grid;
+    grid-template-columns: repeat(4,280px);
+    grid-template-rows: repeat(5,400px);
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.child{
+        /* height:100%;
+        width:23%; */
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: center;
+    
+}
+.founderphoto{
+    width: 100%;
+    border-radius: 5px;
+    
+}
+.ceo{
+    color:rgb(84, 77, 79);
+    text-align: center;
+}
+.logo{
+    width:140px;
+    height: 48px;
+    margin-left: 25%;
+    margin-top: -14px;
+    
+}   
+.foundername{
+    text-align: center;
+    font-size: 16px;
+} 
